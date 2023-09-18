@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+   
+
+ h1 ,h3{
+  font-family: 'Cherry Bomb One', cursive;
+  /* font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Mochiy Pop One', sans-serif; */
+
+ }
+ .box{
+  transition: .6s;
+ }
+.box:hover{
+  transform: translateY(-15px);
+}
+.fruit::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0000005c;
+}
